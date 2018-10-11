@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:id="@+id/pull_send_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PULL Send Request" />
+    <Button
+        android:id="@+id/sax_send_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAX Send Request" />
+    <Button
+        android:id="@+id/json_send_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON Send Request" />
+    <Button
+        android:id="@+id/gson_send_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GSON Send Request" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/response_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>
